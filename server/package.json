@@ -1,0 +1,23 @@
+{
+  "name": "akoya-mcp-server",
+  "version": "1.0.0",
+  "scripts": {
+    "prepare": "shx chmod +x ./cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "bin": "cli.js",
+  "dependencies": {
+    "@apimatic/mcp-core": "^0.1.1-alpha.3",
+    "akoya": "file:../sdk"
+  },
+  "devDependencies": {
+    "shx": "^0.4.0"
+  },
+  "engines": {
+    "node": ">=20.10.0"
+  }
+}
