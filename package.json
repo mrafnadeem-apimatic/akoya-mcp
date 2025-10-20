@@ -1,0 +1,9 @@
+{
+  "name": "akoya-mcp-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd sdk && npm install && cd ../server && npm install",
+    "start": "cd server && node cli.js --port 8080"
+  }
+}
